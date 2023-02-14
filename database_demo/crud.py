@@ -13,14 +13,14 @@ def get_samples(db: Session):
 
     return samples
 
-def create_samples(db: Session, samples: list[dict[Object, Object]]):
+def create_samples(db: Session, samples: list[dict[object, object]]):
     """
     Create a set of sample records in the database.
 
     :param db: Database session.
     :type db: sqlalchemy.orm.Session
     :param samples:
-    :type samples: list[dict[Object, Object]]
+    :type samples: list[dict[object, object]]
     :return: None
     :rtype: NoneType
     """
