@@ -32,7 +32,7 @@ mkdir alembic
 The `database_demo/models.py` file is where we will define our models, which correspond to our database tables. The file is
 pre-populated with a basic `Sample` model.
 
-```
+```python
 class Sample(Base):
     __tablename__ = "sample"
 
@@ -44,7 +44,7 @@ You can add more fields to the `Sample` model using the appropriate SQLAlchemy c
 
 You can also add more model classes to this file, following the same pattern as we've used for the `Sample` class. For example:
 
-```
+```python
 class MyNewEntity(Base):
     __tablename__ = "my_new_entity"
 
