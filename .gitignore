@@ -1,5 +1,4 @@
 # Project-specific
-regen_db.sh
 *.db
 
 # Byte-compiled / optimized / DLL files
