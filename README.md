@@ -1,6 +1,7 @@
 # database-demo
 
-This is a small demo application that shows how to create a database-based application using [SQLAlchemy](https://www.sqlalchemy.org).
+This is a small demo application that shows how to create a database-based application using [SQLAlchemy](https://www.sqlalchemy.org)
+and [alembic](https://alembic.sqlalchemy.org).
 
 ## Getting Started
 
